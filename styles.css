@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hero{
+    width: 100vw;
+    max-height: 100vh;
+    background-image: url(photos/images.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    background-repeat: repeat-x repeat-y;
+
+}
+nav{
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.logo{
+        width: 140px;
+}
+nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 15px; 
+}
+nav ul li a{
+         text-decoration: none;
+        color: rgba(10, 10, 10, 0.637);
+        font-weight: 400;
+}
+.login-btn{
+    text-decoration: none;
+    color:#333;
+    margin-right: 15px;
+    font-weight: 400;
+
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #1a1919;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content{
+    margin-top: 15%;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 70px;
+    color: #f7f3f3;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #f5efef;
+    animation-delay: 0.5s;
+    font-size:large;
+
+}
+.content .btn{
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s ;
+}
+.btn:hover{
+    border-top-right-radius: 30px;
+}
+.feature-img{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    scale: 100%;
+}
+.feature-img.anim{
+    animation-delay: 1.5s ;
+}
+.anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+footer {
+    background-color: #333;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    max-width: 300px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f1f1f1;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-section a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    color: #aaa;
+}
+.features{
+    font-size: 1.5rem;
+    color: #727070;
+    font-family: Arial Bold;
+}
+
+.How{
+    font-size: 1.5rem;
+    color: #1a1919;
+    font-family: Arial Bold;
+}
+
+.Privacy{
+    font-size: 1.5rem;
+    color: #1a1919;
+    font-family: Arial Bold;
+}    
